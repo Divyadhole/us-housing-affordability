@@ -1,0 +1,36 @@
+name: Housing Analysis Validation
+on: [push]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: pip install pandas numpy matplotlib seaborn openpyxl scipy
+      - name: Validate data loads
+        run: |
+          python -c "
+          from src.housing_data import load_national, load_states
+          nat = load_national()
+          assert len(nat) == 24
+          assert nat['price_to_income'].max() > 5.0
+          st = load_states()
+          assert len(st) == 50
+          hi = st[st['state']=='HI'].iloc[0]
+          assert hi['price_to_income'] > 8.0
+          ia = st[st['state']=='IA'].iloc[0]
+          assert ia['price_to_income'] < 4.0
+          print(f'✓ HI: {hi[\"price_to_income\"]:.1f}x | IA: {ia[\"price_to_income\"]:.1f}x')
+          "
+      - name: Validate key findings
+        run: |
+          python -c "
+          from src.housing_data import load_national
+          df = load_national()
+          ratio_2022 = df[df['year']==2022]['price_to_income'].values[0]
+          burden_2023 = df[df['year']==2023]['payment_to_income_pct'].values[0]
+          assert ratio_2022 > 5.5, f'2022 ratio should be >5.5x, got {ratio_2022}'
+          assert burden_2023 > 30, f'2023 burden should be >30%, got {burden_2023}'
+          print(f'✓ 2022 ratio: {ratio_2022:.1f}x | 2023 burden: {burden_2023:.1f}%')
+          "
