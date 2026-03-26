@@ -1,0 +1,51 @@
+state,state_name,region,income,home_price,rent_2br,own_rate,cost_burden,price_to_income,rent_burden_pct,affordability_index,afford_tier
+CA,California,West,84097,770000,2210,55.3,36.2,9.16,31.5,10.9,Crisis
+HI,Hawaii,West,83102,801100,2140,58.3,38.1,9.64,30.9,10.4,Crisis
+MA,Massachusetts,Northeast,89026,580000,1920,62.3,32.8,6.51,25.9,15.3,Severely Unaffordable
+CO,Colorado,West,77127,565000,1760,65.1,30.4,7.33,27.4,13.7,Severely Unaffordable
+WA,Washington,West,82400,560000,1790,63.4,29.8,6.8,26.1,14.7,Severely Unaffordable
+NY,New York,Northeast,72108,405000,1720,53.6,34.9,5.62,28.6,17.8,Unaffordable
+OR,Oregon,West,67058,471000,1550,63.2,31.8,7.02,27.7,14.2,Severely Unaffordable
+NJ,New Jersey,Northeast,85245,455000,1680,64.2,31.4,5.34,23.6,18.7,Unaffordable
+AZ,Arizona,West,62055,400000,1460,65.4,29.8,6.45,28.2,15.5,Severely Unaffordable
+NV,Nevada,West,63276,400000,1500,57.2,31.2,6.32,28.4,15.8,Severely Unaffordable
+FL,Florida,South,59227,400000,1620,66.7,36.4,6.75,32.8,14.8,Severely Unaffordable
+TX,Texas,South,64034,300000,1350,62.4,27.8,4.69,25.3,21.3,Unaffordable
+IL,Illinois,Midwest,68428,253000,1240,66.4,28.4,3.7,21.7,27.0,Moderate
+GA,Georgia,South,61497,295000,1350,65.5,28.9,4.8,26.3,20.8,Unaffordable
+NC,North Carolina,South,57341,285000,1230,65.9,27.4,4.97,25.7,20.1,Unaffordable
+PA,Pennsylvania,Northeast,63627,225000,1170,70.0,26.8,3.54,22.1,28.3,Moderate
+VA,Virginia,South,80963,360000,1540,67.1,26.2,4.45,22.8,22.5,Unaffordable
+MN,Minnesota,Midwest,77706,310000,1240,71.1,24.8,3.99,19.1,25.1,Moderate
+OH,Ohio,Midwest,58116,195000,1020,67.9,24.8,3.36,21.1,29.8,Moderate
+MI,Michigan,Midwest,57144,215000,1020,73.4,25.4,3.76,21.4,26.6,Moderate
+IN,Indiana,Midwest,55746,200000,980,69.8,23.2,3.59,21.1,27.9,Moderate
+TN,Tennessee,South,54833,285000,1220,68.2,27.4,5.2,26.7,19.2,Unaffordable
+MO,Missouri,Midwest,57409,195000,970,67.2,24.2,3.4,20.3,29.4,Moderate
+KY,Kentucky,South,51584,180000,900,68.8,24.8,3.49,20.9,28.7,Moderate
+WV,West Virginia,South,46711,152000,790,73.3,26.4,3.25,20.3,30.7,Moderate
+MS,Mississippi,South,45792,149000,810,68.1,27.8,3.25,21.2,30.7,Moderate
+AR,Arkansas,South,48952,162000,840,66.9,25.8,3.31,20.6,30.2,Moderate
+OK,Oklahoma,South,52919,175000,920,67.2,24.2,3.31,20.9,30.2,Moderate
+IA,Iowa,Midwest,62483,185000,900,71.2,21.8,2.96,17.3,33.8,Affordable
+KS,Kansas,Midwest,59597,185000,940,68.6,22.4,3.1,18.9,32.2,Moderate
+UT,Utah,West,74197,485000,1520,70.1,26.4,6.54,24.6,15.3,Severely Unaffordable
+ID,Idaho,West,55785,380000,1280,72.1,28.4,6.81,27.5,14.7,Severely Unaffordable
+MT,Montana,West,57153,375000,1180,68.4,28.8,6.56,24.8,15.2,Severely Unaffordable
+WI,Wisconsin,Midwest,63293,240000,1080,68.2,23.8,3.79,20.5,26.4,Moderate
+CT,Connecticut,Northeast,83572,328000,1560,65.7,30.4,3.92,22.4,25.5,Moderate
+MD,Maryland,Northeast,90203,390000,1730,67.7,28.4,4.32,23.0,23.1,Unaffordable
+NH,New Hampshire,Northeast,77933,390000,1590,71.3,25.8,5.0,24.5,20.0,Unaffordable
+ME,Maine,Northeast,59489,295000,1290,73.3,28.4,4.96,26.0,20.2,Unaffordable
+VT,Vermont,Northeast,63477,305000,1380,70.0,28.8,4.8,26.1,20.8,Unaffordable
+NM,New Mexico,West,51945,257000,1080,67.8,27.4,4.95,24.9,20.2,Unaffordable
+SC,South Carolina,South,54864,255000,1150,71.4,27.4,4.65,25.2,21.5,Unaffordable
+AL,Alabama,South,52035,195000,940,70.1,27.8,3.75,21.7,26.7,Moderate
+LA,Louisiana,South,50800,187000,1000,65.8,30.8,3.68,23.6,27.2,Moderate
+ND,North Dakota,Midwest,66519,225000,940,61.4,20.4,3.38,17.0,29.6,Moderate
+SD,South Dakota,Midwest,58275,245000,960,68.0,21.8,4.2,19.8,23.8,Unaffordable
+NE,Nebraska,Midwest,61439,215000,980,65.4,22.4,3.5,19.1,28.6,Moderate
+WY,Wyoming,West,65204,260000,990,71.8,20.8,3.99,18.2,25.1,Moderate
+AK,Alaska,West,77790,313000,1470,62.7,26.4,4.02,22.7,24.9,Unaffordable
+DE,Delaware,Northeast,69110,295000,1340,72.5,27.8,4.27,23.3,23.4,Unaffordable
+RI,Rhode Island,Northeast,70305,340000,1440,60.5,32.8,4.84,24.6,20.7,Unaffordable
